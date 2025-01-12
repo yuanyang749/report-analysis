@@ -1,0 +1,12 @@
+{
+  "watch": ["src/", "config/"],
+  "ext": ".js,.json",
+  "ignore": ["node_modules/", "logs/"],
+  "exec": "node src/app.js",
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "events": {
+    "restart": "echo '应用已重启'"
+  }
+} 
